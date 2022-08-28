@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#B3B18B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    background-color:#3A3C48;
+    width:90%;
+    color:white;
+    height:30rem;
+    margin:auto;
+    margin-top:3rem;
+    border-radius:1rem;
+    padding:2rem 4rem;
+}
+
+header img{
+    width:3rem;
+    height:3rem;
+    position:relative;
+    top:-1rem;
+    
+}
+input[type='text']{
+    color:white;
+    border-radius:10px;
+    padding-left:15px;
+    border-color: white;;
+}
+input[type='text']:focus{
+    border:1px solid white;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    
+}
+.end{
+    flex-grow: 8;
+    text-align:end;
+    
+}
+nav span{
+    margin:0rem 0.8rem;
+}
+.twob{
+    width:10.2rem;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    border-radius:4px;
+    
+}
+.ser{
+    width:15rem;
+    height:5rem;
+
+    position:relative;
+    top:1rem;
+
+}
+
+
+.ne{
+    width:5rem;
+    height:5rem;
+    background-color:#4B4E55;
+    border-radius:6px;
+    
+
+}
+
+.filbox{
+ width:80px;
+ height:40px;
+    border:1px solid #808287;
+    text-align:center;
+    padding:6px;
+}
+.filts{
+    display:flex;
+    flex-direction:row;
+    width:280px;
+    justify-content:space-between;
+    margin-top:14px;
+
+}
+h4{
+    margin-top:3rem;
+    color:rgb(255, 182, 48);  
+    letter-spacing: 3px;
+}
+h1{
+    letter-spacing:3px;
+}
+.filbox:hover{
+    border-color:rgb(255, 182, 48);
+    color:rgb(255, 182, 48);
+    cursor:pointer;
+    box-shadow:1px 0px 2px 2px;
+}
+nav span:hover{
+    text-decoration:underline rgb(255, 182, 48);
+    cursor:pointer;
+    text-decoration-thickness: 5px;;
+
+}
+p{
+    color:#797a7a;
+}
+input[type="text"]{
+    width:15rem;
+    background:transparent;
+    height:1.5rem;
+    
+}
+.ne:hover{
+    border-color:rgb(255, 182, 48);
+    box-shadow:3px 0px 2px;
+}
+
+input[type='text']::placeholder{
+    color:white;
+}
+#mains{
+    position:relative;
+    left:0px;
+    
+}
